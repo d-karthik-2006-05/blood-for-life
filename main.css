@@ -1,0 +1,159 @@
+.scroll {
+    display: flex;
+    width:calc(450px*12.5);
+    height:450px;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    justify-content:center;
+    align-items: center;
+    left:10px;
+    gap:20px;
+    animation: scroll 30s linear infinite;
+    margin-top:50px;
+}
+.s{
+    width: calc();
+    height:300px;
+    scroll-snap-align: center;
+    box-shadow: 2px 2px 10px #000;
+    border-radius: 10px 5px 10px 5px;
+}
+.scroll:hover{
+  animation-play-state: paused;
+}
+.blood-group:hover,.s:hover,.xy1:hover{
+  box-shadow: 3px 3px 15px orangered;
+  cursor:pointer;
+}
+    @keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-450px*10));
+    }
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+  #logcon,#regcon,#forcon{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top:20%;
+    left:40%;
+    box-shadow: 2px 2px 30px red;
+    
+  }
+  #regcon{
+    width:250px;
+    height:420px;
+  }
+  #forcon{
+    width:250px;
+    height:350px;
+  }
+  #logcon{
+    width:250px;
+    height:400px;
+  }
+  #retb{
+    border: none;
+    background-color: transparent;
+  }
+  .ret{
+    height: 30px;
+    width: 30px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    margin-left: 240px;
+    margin-top: -25px;
+  }
+  h2{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  input[type="text"],input[type="email"],input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="checkbox"] {
+    margin-right:10px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #c0392b;
+  }
+  .y{
+    color: #3498db;
+    border:none;
+    background-color:white;
+    transition: color 0.3s ease;
+  }
+  .y:hover{
+    cursor:pointer;
+  }
+  .foot{
+    margin-top: 20px;
+  } 
+ .c1{
+  box-shadow: 2px 2px 10px #000;
+  margin-left:2%;
+  margin-top:3%;
+  height:250px;
+ }
+ .bl,.bl1{
+  display:flex;
+  justify-content:space-evenly;
+ }
+ .bl{
+  margin-top:3%;
+ }
+ .bl1{
+  margin-top:6%;
+ }
+ .xy1{
+  height:150px;
+  width:150px;
+  box-shadow: 2px 2px 10px #000;
+  border-radius:5px;
+  font-size:30px;
+  background-image:url("icons8-blood-drop-96.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+ p{
+  display: flex;
+  justify-content:space-evenly;
+ }
+ b{
+  margin-left: 10px;
+ }
+ sup{
+  margin-right:10px;
+ }
+ }
+ #bgc,#bgc1{
+  b{
+  font-size:40px;
+  margin-top:-15px;
+ }
+}

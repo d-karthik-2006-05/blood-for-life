@@ -1,0 +1,191 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+    main {
+    padding:1.5rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+a {
+    color: #d50032; /* Blood red color */
+    text-decoration: none;
+}
+section {
+    margin-bottom: 2rem;
+}
+section h2 {
+    color: #d50032;/* Blood red color */
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.team-member {
+    margin-bottom: 1rem;
+}
+        .row{
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            margin-top:30px;
+        }
+        .card {
+            padding:20px 0;
+            width:200px;
+            height:max-content;
+            img{
+                width:150px;
+                height:100px;;
+            }
+        }
+        .container {
+            padding: 0 10px;
+        }
+        .title {
+            color: grey;
+        }
+        details{
+            color:red;
+            font-weight: 600;
+        }
+        
+        h3{
+            color:blue;
+        }
+details p {
+  display:inline-flex;
+}
+.social-icons { text-align: center; margin-top: 20px; }
+  .social-icons a { margin: 0 10px; }
+  .social-icons i { color: #333; }
+  .social-icons a:hover i { color: #555; }
+</style>
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="styles.css">
+<script src="common.js"></script>
+</head>
+<body><header>
+    <nav id="navbar">
+        <ul>
+            <li class="front">
+                <button id="menu" onclick="f2()"><img src="icons8-menu-64.png"></button>
+                <h3 style="color: #fff;">BLOOD For Life</h3>
+                </li>
+            <li>
+                <a href="welcome.php"><button class="menu2" onmouseenter="ex()"><img src="icons8-home-24.png" >HOME</button></a>
+            <li>
+                <a href="about.html"><button class="menu2" onmouseenter="ex()"><img src="icons8-about-24 (1).png">ABOUT US</button></a>
+            </li>
+            <li>
+                <a href="tel:8688765696"><button id="menu3" onmouseenter="ex()"><img src="icons8-call-24.png" >EMERGENCY</button></a>
+            </li>
+            <li>
+                <a href="logout.php"><button class="menu2" onmouseenter="ex()"><img src="icons8-logout-24.png" >LOGOUT</button></a> 
+            </li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>At Blood for Life, our mission is to save lives through the safe and efficient management of blood donations. We are dedicated to ensuring that every patient receives the right type of blood when they need it most. By leveraging advanced technology and compassionate care, we strive to make a difference in our community and beyond.</p>
+        </section>
+        
+        <section id="values">
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Integrity:</strong> We uphold the highest standards of safety and transparency in every aspect of our operations.</li>
+                <li><strong>Compassion:</strong> We approach every interaction with empathy and understanding, recognizing the profound impact of our work on individuals and families.</li>
+                <li><strong>Innovation:</strong> We embrace cutting-edge technology to enhance our processes and ensure the most effective management of blood resources.</li>
+                <li><strong>Community:</strong> We are committed to engaging with and supporting our local community through education, outreach, and partnership.</li>
+            </ul>
+        </section>
+        
+        <section id="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <h3>Chiranjeevi</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <h3>ReddyCharan</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <h3>Karthik</h3>
+                <p>Developer</p>
+            </div>
+            <div class="team-member">
+                <h3>Prem Kumar</h3>
+                <p>Developer</p>
+            </div>
+            <!-- <div class="team-member">
+                <h3>Charishma</h3>
+                <p>Team Member</p>
+            </div>
+            <div class="team-member">
+                <h3>Praveena</h3>
+                <p>Team Member</p>
+            </div>
+            <div class="team-member">
+                <h3>Anusha</h3>
+                <p>Team Member</p>
+            </div>
+            <div class="team-member">
+                <h3>Kavya</h3>
+                <p>Team Member</p>
+            </div> -->
+        </section>
+        
+        <section id="impact">
+            <h2>Our Impact</h2>
+            <p>Since our inception,Blood for life :</p>
+            <ul>
+                <li>Collected over 10000 units of blood</li>
+                <li>Supported 50 hospitals and medical facilities</li>
+                <li>Saved countless lives through timely and effective blood management</li>
+            </ul>
+        </section>
+        
+        <section id="get-involved">
+            <h2>Get Involved</h2>
+            <p>There are many ways to support our mission:</p>
+            <ul>
+                <li><strong>Donate Blood:</strong> Your donation can make a life-saving difference.</li>
+                <li><strong>Volunteer:</strong> Join our team to help with blood drives, administrative tasks, and more.</li>
+                <li><strong>Donate:</strong> Financial contributions help us improve our services and reach more people.</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to learn more about how you can get involved? Reach out to us at <a href="mailto:bloodforlife49@gmail.com">bloodforlife49@gmail.com</a> or call us at 99********. We’re here to help!</p>
+            <p>Follow us on social media for the latest updates and stories:</p>
+               <p align="center"><big style="color:blue">Click here to Follow us :</big></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/bloodforlife" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/@blood655453" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/blood_for_life018" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+        </section>
+    </main>
+<div id="main">
+    <center>
+        <button id="close1" onclick="f1()" ><img src="icons8-close-32.png" id="close"></button>
+        <br><br><br><a href="bldin.html"><button id="men1">Blood Groups Info</button></a><br>
+        <a href="tips.html"><button id="men2">To Donate Blood</button></a><br>
+        <a href="req.php"><button id="men3">To Request Blood</button></a><br>
+        <a href="mon.php"><button id="men4">To Donate Money</button></a><br>
+        <a href="feed.php"><button id="men5">Feedback</button></a><br>
+    </center>
+</div>
+<br><br><footer>Copyrights&copy; 2024 Blood for life</footer>
+</body>
+</html>
